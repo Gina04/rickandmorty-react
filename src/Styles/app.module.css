@@ -1,3 +1,137 @@
-.container{
-    color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@1,300&display=swap');
+/*Navbar*/
+.navbar{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.5rem;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+li{
+    margin: 0.5rem;
+}
+
+.navbar li{
+    border-bottom: 1.5px solid black;
+}
+
+.navbar li:hover{
+    color:#a3e635;
+    border-bottom: 1.5px solid #a3e635;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Tabla de usuarios*/
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tableUserContainer{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 550px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr{
+    background-color: #bef264;
+    color: #ffffff;
+    text-align: middle; 
+}
+
+th, td{
+    padding: 12px 15px; 
+}
+
+tbody tr {
+     border-bottom: 1px solid #dddddd;
+ }
+
+/*CARDS Charters*/
+.characterCard{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#ffffff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+}
+
+.characterCard:hover{
+    box-shadow: 0px 10px 15px rgba(175, 225, 59, 0.377);
+}
+
+/*Formulario de contacto*/
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+.formContainer input, .formContainer textarea{
+    width: 410px;
+    height: 20px;
+  
+    margin-top: 2%;
+    padding: 15px;
+    
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+  
+    outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear; 
+  }
+
+.formContainer  button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 440px;
+    height: 50px;
+  
+    background: #fff;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+.formContainer  button:hover{
+	background-color: #046193;
+}
+
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+textarea {  resize: none;}

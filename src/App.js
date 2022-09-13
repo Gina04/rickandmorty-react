@@ -1,37 +1,42 @@
 import { Route, Routes } from "react-router-dom";
 import Menu from "./Components/Menu";
 import TableUsersContainer from "./Components/TableUsersContainer";
-import Form from "./Components/Form";
-import GridCards from "./Components/GridCards";
+import Formulario from "./Components/Formulario";
+import CardsGridContainer from "./Components/CardsGridContainer";
 
 
 function App() {
     //Renderizamos el componente
     return (
-        <div>
-            <Menu/>
+        <div className="app">
+            <header>
+                <Menu/>
+            </header>
+            <main>
             <Routes>
                 <Route
                     path="/"
-                    element = {<h1>Inicio</h1>}
+                    element = {<h1>Hi, How are you?</h1>}
                 />
                 <Route 
                     path="/user"
                     element = {<TableUsersContainer />}
                 />
                 <Route
-                    path="/r&m"
-                    element = {<GridCards/>}
+                    path="/character"
+                    element = {<CardsGridContainer />}
                 />
-
                 <Route 
                     path="/contact"
-                    element={<Form />}
+                    element={<Formulario />}
                 />
-    
             </Routes>
+            </main>
+
 
         </div>
+
+       
 
     )
 }
