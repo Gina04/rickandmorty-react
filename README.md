@@ -1,12 +1,13 @@
 <h1 align="center"> Migrando a React :airplane:</h1>
 
- <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-Terminado-green">
- </p
+<img src="https://img.shields.io/badge/STATUS-Terminado-green">
 
-## Descripcion del Proyecto
-Trabajar con asincronismo, implementar Fetch o Axios para la petición, implementar .then o async/await para el manejo de las promesas. Control de DOM por medio de JS, implementación de cards en una UI.
 
+ 
+ 
+## Descripción del Proyecto
+Trabajar con asincronismo, implementar Fetch o Axios para la petición, implementar .then o async/await para el manejo de las promesas. Manejo de ruteos por medio de React e implementación de cards en una UI.
+ 
 ## :hammer:Funcionalidades del proyecto
 
 ## 🛠️ Abre y ejecuta el proyecto
@@ -22,9 +23,11 @@ Inicializar el proyecto
 ## :heavy_check_mark: Tecnologias utilizadas
 
 
-* React 
+* React  
+* React Router
 * Javascript
-* Css5
+* Css5  
+* Flexbox
 * npm
 
 
