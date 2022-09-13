@@ -10,7 +10,14 @@ Trabajar con asincronismo, implementar Fetch o Axios para la petición, implemen
 ## :hammer:Funcionalidades del proyecto
 
 ## 🛠️ Abre y ejecuta el proyecto
-`git clone ` :link:
+Clonar el repositorio remoto  
+`git clone https://github.com/Gina04/rickandmorty-react.git`
+
+Instala las dependencias del proyecto  
+`npm install`
+
+Inicializar el proyecto  
+`npm start`
 
 ## :heavy_check_mark: Tecnologias utilizadas
 
