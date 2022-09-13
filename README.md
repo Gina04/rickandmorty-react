@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+<h1 align="center"> Migrando a React :airplane:</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+:construction: Project under construction :construction:
+</h4>
 
-## Available Scripts
+## Descripción del proyecto 
+
+Trabajar con asincronismo, implementar Fetch o Axios para la petición, implementar .then o async/await para el manejo de las promesas. Control de DOM por medio de JS, implementación de cards en una UI.
 
 In the project directory, you can run:
 
