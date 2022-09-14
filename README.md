@@ -1,5 +1,7 @@
 <h1 align="center"> Migrando a React :airplane:</h1>
+<p align="center" >
   <img src= "https://user-images.githubusercontent.com/82402525/190032181-b2fc90e6-eeb2-47e8-9e19-a5de73770fbc.gif"/>
+</p>
 
 
 
