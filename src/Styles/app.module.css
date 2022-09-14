@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@1,300&display=swap');
+
 /*Navbar*/
 .navbar{
     font-family: 'Cairo', sans-serif;
     font-size: 1.5rem;
+    
 }
 
 ul{
@@ -16,6 +18,7 @@ ul{
 
 li{
     margin: 0.5rem;
+    color: #475569;
 }
 
 .navbar li{
@@ -23,8 +26,8 @@ li{
 }
 
 .navbar li:hover{
-    color:#a3e635;
-    border-bottom: 1.5px solid #a3e635;
+    color:#5eead4;
+    border-bottom: 1.5px solid #5eead4;
 }
 
 a{
@@ -45,10 +48,15 @@ main{
     margin: 25px 0;
     min-width: 550px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+     */
 }
 
 thead tr{
-    background-color: #bef264;
+    background-color: #5eead4;
     color: #ffffff;
     text-align: middle; 
 }
@@ -70,7 +78,7 @@ tbody tr {
 }
 
 .characterCard:hover{
-    box-shadow: 0px 10px 15px rgba(175, 225, 59, 0.377);
+    box-shadow: 0px 10px 15px ;
 }
 
 /*Formulario de contacto*/
@@ -85,7 +93,7 @@ tbody tr {
     margin: 2% auto;
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
     padding: 2%;
-    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #1b0316 50%);
 }
 
 .formContainer input, .formContainer textarea{
@@ -127,7 +135,8 @@ tbody tr {
     letter-spacing: 0.05em;
 }
 .formContainer  button:hover{
-	background-color: #046193;
+	background-color: #5eead4;
+    color: #ffffff;
 }
 
 input:focus {
@@ -135,3 +144,4 @@ input:focus {
     border-radius: 5px;
 }
 textarea {  resize: none;}
+
